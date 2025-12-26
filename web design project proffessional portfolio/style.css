@@ -75,8 +75,26 @@ nav a:hover {
     background-color: #0056b3;
 }
 
-/* Image */
-.hero-image img {
-    width: 320px;
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Oval background */
+.oval-bg {
+    width: 350px;
+    height: 450px;
+    background-color: #f5e1c8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile image */
+.oval-bg img {
+    width: 260px;
     border-radius: 50%;
 }
+
