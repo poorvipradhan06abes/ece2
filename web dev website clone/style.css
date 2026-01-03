@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color:#e3e6e6;
+}
+
+/* Navbar */
+.navbar{
+    height:60px;
+    background:#0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+}
+
+.nav-logo{
+    font-size:26px;
+    font-weight:bold;
+    color:#ff9900;
+}
+
+.nav-search{
+    display:flex;
+    width:50%;
+}
+
+.nav-search input{
+    width:100%;
+    padding:8px;
+    border:none;
+}
+
+.nav-search button{
+    padding:8px 15px;
+    background:#febd69;
+    border:none;
+    cursor:pointer;
+}
+
+.nav-links{
+    display:flex;
+    gap:20px;
+    font-size:13px;
+}
+
+.nav-links p{
+    font-weight:bold;
+}
+
+.cart{
+    font-size:16px;
+}
+
+/* Hero Section */
+.hero{
+    height:300px;
+    background:url('https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+/* Products */
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.product-box{
+    background:white;
+    padding:15px;
+    border-radius:4px;
+}
+
+.product-box h3{
+    margin-bottom:10px;
+}
+
+.product-box img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.product-box a{
+    display:block;
+    margin-top:10px;
+    color:#007185;
+    text-decoration:none;
+}
+
+/* Footer */
+footer{
+    background:#232f3e;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
